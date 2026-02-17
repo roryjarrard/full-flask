@@ -32,3 +32,4 @@ instance/ # Flask instance folder for config and data that should not be committ
 .pytest_cache/
 .coverage
 htmlcov/
+.vscode/settings.json
