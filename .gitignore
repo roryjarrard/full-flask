@@ -8,8 +8,8 @@ __pycache__/
 .Python
 build/
 dist/
-instance/ # Flask instance folder for config and data that should not be committed
-instance/application.cfg
+flaskr/instance/ # Flask instance folder for config and data that should not be committed
+flaskr/instance/application.cfg
 venv/ # Recommended to ignore the virtual environment directory
 .venv/ # Alternate common virtual environment name
 
