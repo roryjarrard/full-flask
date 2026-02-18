@@ -9,12 +9,14 @@ __pycache__/
 build/
 dist/
 instance/ # Flask instance folder for config and data that should not be committed
+instance/application.cfg
 venv/ # Recommended to ignore the virtual environment directory
 .venv/ # Alternate common virtual environment name
 
 # IDEs and editors
 .idea/ # PyCharm
 .vscode/ # VS Code
+.vscode/settings.json
 *.swp
 
 # OS-specific files
@@ -33,4 +35,5 @@ instance/ # Flask instance folder for config and data that should not be committ
 .pytest_cache/
 .coverage
 htmlcov/
-.vscode/settings.json
+
+
